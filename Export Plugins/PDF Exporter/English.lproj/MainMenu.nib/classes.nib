@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {createPDF = id; printPDF = id; savePDF = id; }; 
+            CLASS = AppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                authorsColumn = NSTableColumn; 
+                pdfView = PDFView; 
+                print = NSButton; 
+                recordTable = NSTableView; 
+                records = NSArrayController; 
+                save = NSButton; 
+                search = NSSearchField; 
+                status = NSTextField; 
+                stylesMenu = id; 
+                titleColumn = NSTableColumn; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = BookRecordDataSource; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

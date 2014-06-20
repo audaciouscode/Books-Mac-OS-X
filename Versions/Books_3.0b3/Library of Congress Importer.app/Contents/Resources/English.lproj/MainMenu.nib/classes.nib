@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ResultsDataSource; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {clear = id; export = id; quit = id; search = id; }; 
+            CLASS = TemplateImporterAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aboutMenuItem = id; 
+                helpMenuItem = id; 
+                hideMenuItem = id; 
+                mainWindow = id; 
+                quitMenuItem = id; 
+                resultsDataSource = id; 
+                resultsTable = id; 
+                searchField = id; 
+                searchQuery = id; 
+                topMenuItem = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

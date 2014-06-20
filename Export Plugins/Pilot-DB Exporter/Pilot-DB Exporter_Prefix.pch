@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Pilot-DB Exporter' target in the 'Pilot-DB Exporter' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

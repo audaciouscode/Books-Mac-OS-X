@@ -1,0 +1,28 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {createApp = id; exportItems = id; previewItems = id; removeItems = id; }; 
+            CLASS = AppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                allRecords = id; 
+                allRecordsTable = id; 
+                appWindow = id; 
+                createAppButton = id; 
+                exportButton = id; 
+                exportRecords = id; 
+                exportRecordsTable = id; 
+                preferences = id; 
+                previewButton = id; 
+                previewText = id; 
+                previewWindow = id; 
+                removeButton = id; 
+                searchField = id; 
+                statusMessage = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>plugin</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>import-plugin.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>BooksPlugin</string>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>LSTypeIsPackage</key>
+			<false/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>XML</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>BooksItem</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>Books.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>BooksItem</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>net.aetherial.books.BooksItem</string>
+			</array>
+			<key>LSTypeIsPackage</key>
+			<false/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>Binary</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>Books</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Books Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Books Help</string>
+	<key>CFBundleIconFile</key>
+	<string>Books</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.aetherial.books.Books</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BOOK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.2.5d</string>
+	<key>CFBundleSignature</key>
+	<string>AETH</string>
+	<key>CFBundleVersion</key>
+	<string>3.2.5d</string>
+	<key>NSAppleScriptEnabled</key>
+	<string>YES</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>OSAScriptingDefinition</key>
+	<string>Books.sdef</string>
+	<key>SUFeedURL</key>
+	<string>http://legacy.audacious-software.com/products/books/dist/appcast.xml</string>
+	<key>SmartCrashReports_CompanyName</key>
+	<string>Chris Karr</string>
+	<key>SmartCrashReports_EmailTicket</key>
+	<string>SCR-CB89FEB471</string>
+</dict>
+</plist>

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TemplateExporter' target in the 'TemplateExporter' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

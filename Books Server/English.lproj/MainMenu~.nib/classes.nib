@@ -1,0 +1,24 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {browseForXml = id; showLog = id; startServer = id; stopServer = id; }; 
+            CLASS = BooksServerAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                browseButton = id; 
+                progress = id; 
+                siteName = id; 
+                startButton = id; 
+                statusBar = id; 
+                statusText = id; 
+                stopButton = id; 
+                tcpPort = id; 
+                xmlFile = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

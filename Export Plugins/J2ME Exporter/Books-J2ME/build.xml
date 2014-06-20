@@ -1,0 +1,45 @@
+<project name="MyProject" default="dist" basedir=".">
+
+	<property name="arch" value="powerpc"/>
+	<property name="midp" value="."/>
+	<property name="midp_lib" value="${midp}/classes"/>
+	<property name="build" value="/tmp/books-build"/>
+
+	<target name="init">
+		<tstamp/>
+	</target>
+  
+	<target name="compile" depends="init">
+		<mkdir dir="${build}/classes"/>
+		<javac destdir="${build}/classes" srcdir="src"
+			bootclasspath="${midp_lib}" target="1.1"/>
+	</target>
+  
+	<target name="preverify" depends="compile">
+		<mkdir dir="${build}/preverified"/>
+		<!-- <exec executable="${midp}/bin/preverify"> -->
+		<exec executable="${midp}/bin/preverify-${arch}">
+			<arg line="-classpath ${midp_lib}"/>
+			<arg line="-d ${build}/preverified"/>
+			<arg line="${build}/classes"/>
+		</exec>
+	</target>
+
+	<target name="dist" depends="preverify">
+		<mkdir dir="${build}/bin"/>
+		<jar basedir="${build}/preverified"
+			jarfile="${build}/bin/Books.jar"
+			manifest="MANIFEST.MF">
+			<fileset dir="res"/>
+		</jar>
+	</target>
+
+	<target name="run" depends="dist">
+		<exec executable="${midp}/bin/midp">
+			<!-- <arg line="-Xdescriptor build/bin/Books.jad"/> -->
+			<arg line="-classpath ${build}/bin/Books.jar"/>
+			<env key="DISPLAY" value=":0.0"/> 
+		</exec>
+	</target>
+</project>
+

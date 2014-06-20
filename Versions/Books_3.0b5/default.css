@@ -1,0 +1,41 @@
+body
+{
+	font-family: Lucida Grande Regular;
+	font-size: 13 point;
+	
+	padding: 10px;
+	
+	background-color: white;
+}
+
+div
+{
+	display: block;
+}
+
+div.empty-message
+{
+	font-style: italic;
+}
+
+p.booklist-item
+{
+	padding-left: 20px;
+}
+
+div.booklist-title
+{
+	font-style: italic;
+	font-weight: bold;
+}
+
+div.booklist-authors
+{
+	padding-left: 30px;
+}
+
+div.book-title
+{
+	font-size: larger;
+	font-weight: bold;
+}

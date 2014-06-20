@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'Books' target in the 'Books' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+
+#endif
+
+#define MKOSXLeopard 0x00001050
+#define DLog NSLog
+#define MyLog NSLog

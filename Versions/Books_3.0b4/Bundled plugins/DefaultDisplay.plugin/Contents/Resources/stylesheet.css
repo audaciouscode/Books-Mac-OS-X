@@ -1,0 +1,73 @@
+body
+{
+	font-family: 'Lucida Grande', LucidaGrande, Lucida, Helvetica, Arial, sans-serif;
+	font-size: 13 point;
+	
+	background-color: white;
+	padding: 0;
+	margin: 0;
+}
+
+div
+{
+	display: block;
+	padding-bottom: 0em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+div.book-definition {
+	padding: 0;
+	margin: 0;
+}
+
+div.empty-message
+{
+	font-style: italic;
+	padding: 1em;
+}
+
+div.multiple-message
+{
+	font-style: italic;
+	padding: 1em;
+}
+
+p.booklist-item
+{
+	padding-left: 20px;
+}
+
+div.booklist-title
+{
+	font-style: italic;
+	font-weight: bold;
+	margin: 0;
+	background: #;
+	border-bottom: #ffffff;
+}
+
+div.booklist-authors
+{
+	padding-left: 30px;
+}
+
+div.book-title
+{
+	font-size: larger;
+	background: #005FD7;
+	padding: 0.5em;
+	margin: 0 0 1em;
+	border-bottom: 1px solid #000080;
+	color: #ffffff;
+	font-weight: bold;
+	text-shadow: 0 1px 2px black;
+}
+
+div.book-summary
+{
+	margin-top: 1em;
+#	border-top: thin solid gray;
+	text-align: justify;
+}

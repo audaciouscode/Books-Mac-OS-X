@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {myInventory = id; upload = id; }; 
+            CLASS = AppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {password = id; source = id; tableArray = id; tableView = id; username = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

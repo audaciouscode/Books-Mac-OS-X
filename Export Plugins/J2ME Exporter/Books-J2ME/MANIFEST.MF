@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+MIDlet-1: Books-J2ME, books-j2me.png, net.aetherial.books.me.Midlet
+MIDlet-Name: Books-J2ME
+MIDlet-Version: 1.00.00
+MIDlet-Vendor: Chris J. Karr
+MIDlet-Info-URL: http://books.aetherial.net/
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-1.0

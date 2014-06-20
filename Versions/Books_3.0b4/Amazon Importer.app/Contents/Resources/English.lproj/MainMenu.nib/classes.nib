@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {clear = id; doSearch = id; export = id; quit = id; viewOnline = id; }; 
+            CLASS = AmazonImporterAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                fieldPulldown = id; 
+                localePulldown = id; 
+                resultsDataSource = id; 
+                resultsTable = id; 
+                searchField = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = AmazonResultsDataSource; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

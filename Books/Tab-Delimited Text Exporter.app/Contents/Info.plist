@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BooksPluginName</key>
+	<string>Tab-Delimited Text Exporter</string>
+	<key>BooksPluginType</key>
+	<string>Export</string>
+	<key>BooksScriptName</key>
+	<string>script.sh</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>TemplateExporter</string>
+	<key>CFBundleIconFile</key>
+	<string>export-plugin</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.aetherial.books.exporter.tabexporter</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Tab-Delimited Text Exporter</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.4</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>ExportImages</key>
+	<string>NO</string>
+</dict>
+</plist>

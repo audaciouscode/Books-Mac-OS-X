@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Books Terminology">
+	<suite name="Books Suite" code="Book" description="Books specific classes.">
+		
+		<class name="booklist" code="Tlis" description="a list of books." plural="lists">
+			<cocoa class="ListManagedObject"/>
+			<element type="book"/>
+			<property name="name" code="pnam" description="The list&apos;s name." type="text">
+				<cocoa key="name"/>
+			</property>
+		</class>
+
+		<class name="smartlist" code="Tlis" description="a smart list containing books that match a set of rules."
+			plural="smartlists">
+			<cocoa class="SmartList"/>
+			<element type="book"/>
+			<property name="name" code="pnam" description="The list&apos;s name." type="text">
+				<cocoa key="name"/>
+			</property>
+			<property name="rules" code="TRul" description="The list&apos;s rules." type="text">
+				<cocoa key="predicateString"/>
+			</property>
+		</class>
+		
+		<class name="book" code="TBok" description="A book." plural="books">
+			<cocoa class="BookManagedObject"/>
+			<property name="title" code="pnam" description="title of the book" type="text">
+				<cocoa key="title"/>
+			</property>
+			<property name="summary" code="BSum" description="summary or description of the book" type="text">
+				<cocoa key="summary"/>
+			</property>
+			<property name="genres" code="BGnr" description="genres of the book" type="text">
+				<cocoa key="genre"/>
+			</property>
+			<property name="authors" code="BAut" description="authors of the book" type="text">
+				<cocoa key="authors"/>
+			</property>
+			<property name="editors" code="BEdr" description="editors of the book" type="text">
+				<cocoa key="editors"/>
+			</property>
+			<property name="illustrators" code="BIll" description="illustrators of the book" type="text">
+				<cocoa key="illustrators"/>
+			</property>
+			<property name="translators" code="BTrs" description="translators of the book" type="text">
+				<cocoa key="translators"/>
+			</property>
+			<property name="publisher" code="BPub" description="publisher of the book" type="text">
+				<cocoa key="publisher"/>
+			</property>
+			<property name="length" code="BLen" description="length of the book" type="text">
+				<cocoa key="length"/>
+			</property>
+			<property name="publish date" code="BPDt" description="publication date of the book" type="date">
+				<cocoa key="publishDate"/>
+			</property>
+			<property name="keywords" code="BKwd" description="keywords or tags describing the book" type="text">
+				<cocoa key="keywords"/>
+			</property>
+			<property name="format" code="BFmt" description="format of the book" type="text">
+				<cocoa key="format"/>
+			</property>
+			<property name="edition" code="BEdt" description="edition of the book" type="text">
+				<cocoa key="edition"/>
+			</property>
+			<property name="publish place" code="BPPl" description="where the book was published" type="text">
+				<cocoa key="publishPlace"/>
+			</property>
+		</class>
+		
+		<class name="application" code="capp" description="Books application.">
+			<cocoa class="NSApplication"/>
+			<element description="lists in the application" type="booklist" access="r">
+				<cocoa key="booklists"/>
+			</element>
+			<property name="selected list" code="pCli" description="selected list" type="booklist">
+				<cocoa key="selectedList"/>
+			</property>
+			<property name="selected books" code="pSbk" description="selected books" access="r">
+				<cocoa key="selectedBooks"/>
+				<type type="book" list="yes"/>
+			</property>
+			<responds-to name="create list">
+				<cocoa method=""/>
+			</responds-to>
+			<responds-to name="create smart list">
+				<cocoa method=""/>
+			</responds-to>
+			<responds-to name="create book">
+				<cocoa method=""/>
+			</responds-to>
+		</class>
+
+		<command name="create list" code="CNewList" description="create a new list">
+			<cocoa class="BooksCreateNewListCommand"/>
+			<parameter name="called" code="PCal" description="name of new list" type="text" optional="yes">
+				<cocoa key="called"/>
+			</parameter>
+		</command>
+
+		<command name="create smart list" code="CSmaList" description="create a new smart list">
+			<cocoa class="BooksCreateNewSmartListCommand"/>
+			<parameter name="called" code="PCal" description="name of new list" type="text" optional="yes">
+				<cocoa key="called"/>
+			</parameter>
+			<parameter name="with rules" code="PRul" description="predicate" type="text" optional="yes">
+				<cocoa key="withrules"/>
+			</parameter>
+		</command>
+
+		<command name="create book" code="CNewBook" description="create a new book">
+			<cocoa class="BooksCreateNewBookCommand"/>
+			<parameter name="titled" code="PTit" description="title of the new book" type="text" optional="no">
+				<cocoa key="titled"/>
+			</parameter>
+			<parameter name="in listnamed" code="PLis" description="list containing the new book" type="booklist" 
+				optional="no">
+				<cocoa key="inlist"/>
+			</parameter>
+		</command>
+
+	</suite>
+</dictionary>

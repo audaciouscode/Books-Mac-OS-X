@@ -1,0 +1,222 @@
+body {
+	background: url(bkgd.png) repeat;
+	font: small 'Lucida Grande', LucidaGrande, Lucida, Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+div.search {
+	margin-top: auto;
+	text-align: right;
+	margin-bottom: 2em;
+}
+
+p {
+	text-align: justify;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*<group=Toolbar>*/
+
+/*<group=Calendar>*/
+
+table {
+	width: 180px;
+	font-size: x-small;
+	text-align: center;
+}
+	
+/*</group>*/
+
+h2.module-header {
+	width: 190px;
+	background: url(sidebar_button.png) no-repeat;
+	text-align: center;
+	margin-left: 5px;
+	margin-top: 10px;
+	padding-top: 7px;
+	font-size: small;
+	height: 30px;
+}
+
+div.module-content {
+	width: 181px;
+	padding-left: 10px;
+	margin-bottom: 40px;
+	font-size: x-small;
+}
+
+li.module-list-item {
+	margin-top: 0;
+	margin-bottom: 5px;
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+ul.module-list {
+	padding: 0;
+	margin: 0 20px 0 1em;
+}
+	
+/*</group>*/
+
+div.content {
+	display: block;
+	background: repeat;
+	border-color: #000000;
+}
+
+div.header {
+	background: url(top.png);
+	margin-right: auto;
+	margin-left: auto;
+	width: 771px;
+	display: block;
+	height: 111px;
+}
+
+div.title {
+	position: relative;
+	top: 40px;
+	font: 32px 'Lucida Grande', LucidaGrande, Lucida, Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+div.page-header {
+	background: url(top.png);
+	margin-right: auto;
+	margin-left: auto;
+	width: 771px;
+	display: block;
+	height: 91px;
+}
+
+div.page-title {
+	position: relative;
+	top: 40px;
+	font: 15px 'Lucida Grande', LucidaGrande, Lucida, Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+div.subtitle {
+	position: relative;
+	top: 50px;
+	font: 10px 'Lucida Grande', LucidaGrande, Lucida, Helvetica, Arial, sans-serif;
+	text-align: center;
+	border-bottom: 1px solid #9d9d9d;
+	padding-bottom: 10px;
+	width: 731px;
+	margin-right: auto;
+	margin-left: 17px;
+}
+
+div.middle {
+	background: url(background.png) repeat;
+	margin-right: auto;
+	margin-left: auto;
+	width: 771px;
+	height: auto;
+	padding-bottom: 2em;
+}
+
+div.left {
+	font-size: small;
+	width: 200px;
+	position: relative;
+	display: table-cell;
+	padding-left: 20px;
+}
+
+div.right {
+	position: relative;
+	display: table-cell;
+	width: 490px;
+	padding-top: 1em;
+	padding-left: 20px;
+}
+
+/*<group=Blog Entry>*/
+
+p.comment-footer {
+	font-size: x-small;
+	text-align: right;
+}
+
+div.entry {
+	margin-bottom: 3em;
+}
+
+h3.entry-header {
+	font-variant: normal;
+	font-size: large;
+	font-weight: bold;
+}
+
+div.entry-content {
+	font-variant: normal;
+	font-size: small;
+	text-align: justify;
+}
+
+p.entry-footer {
+	font-size: x-small;
+	text-align: right;
+}
+	
+/*</group>*/
+
+div.footer {
+	height: 44px;
+	background: url(footer.png) no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	width: 771px;
+	display: block;
+	font: 9pt 'Lucida Grande', LucidaGrande, Lucida, Helvetica, Arial, sans-serif;
+	text-align: center;
+	padding-top: 4px;
+	clear: both;
+}
+
+/*<group=Individual Pages>*/
+
+p.content-nav {
+	text-align: right;
+}
+
+div.trackbacks {
+	padding-bottom: 1em;
+}
+
+div.comments {
+	padding-bottom: 1em;
+}
+
+label {
+	width: 150px;
+	vertical-align: top;
+}
+
+textarea#comment-text {
+	width: 400px;
+}
+
+div#comments-open-data {
+	text-align: right;
+}
+
+div#comments-open-footer {
+	text-align: right;
+}
+
+p#comments-open-text {
+	text-align: right;
+}
+	
+/*</group>*/

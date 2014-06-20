@@ -1,0 +1,394 @@
+"About Books" = "About Books";
+
+"Add" = "Ajouter";
+
+"Add a new file" = "Ajouter un fichier";
+
+"Add File" = "Ajouter le fichier";
+
+"All" = "toutes les";
+
+"Any" = "n'importe laquelle des";
+
+"Author(s)" = "Auteur(s)";
+
+"Authors:" = "Auteurs:";
+
+"Basic Info." = "Fiche";
+
+"Batch Quickfill Visible Items" = "Auto-remplissage des éléments visibles";
+
+"Book Information" = "Plus d'infos";
+
+"Books" = "Books";
+
+"Books - %{title1}@ (%{title2}@)" = "Books - %{title1}@ (%{title2}@)";
+
+"Books Help" = "Aide Books";
+
+"Borrower" = "Emprunteur";
+
+"Borrower:" = "Emprunteur:";
+
+"Box" = "Box";
+
+"Bring All to Front" = "Tout ramener au premier plan";
+
+"Browse" = "Naviguer";
+
+"Cancel" = "Annuler";
+
+"Check For Updates..." = "Mise à jour...";
+
+"Check Spelling" = "Vérifier l'orthographe";
+
+"Check Spelling as You Type" = "Vérifier l'orthographe lors de la frappe";
+
+"Close" = "Fermer";
+
+"Comments:" = "Commentaire:";
+
+"Condition:" = "État:";
+
+"contains" = "contient";
+
+"Copies" = "Copies";
+
+"Copy" = "Copie";
+
+"Copy Borrowed" = "Copie emprunté";
+
+"Copy:\n" = "Copie:\n";
+
+"Cover Image" = "Image";
+
+"Current Value:" = "Prix actuel:";
+
+"Custom Genres" = "Genres supplémentaires";
+
+"Custom Settings" = "Autres éléments";
+
+"Cut" = "Couper";
+
+"Date Acquired:" = "Acquis le:";
+
+"Date Finished" = "Fini le";
+
+"Date Finished:" = "Fini le:";
+
+"Date Lent" = "Date de prêt";
+
+"Date Lent:" = "Date de prêt:";
+
+"Date Published" = "Date de publ.";
+
+"Date Started:" = "Commencé le:";
+
+"Default Display Style:" = "Style d'affichage:";
+
+"Default Export Plugin:\n" = "Mod. d'ext. d'exportation:\n";
+
+"Default Import Plugin:" = "Mod. d'ext. d'importation:";
+
+"Default Quickfill Plugin:" = "Mod. d'ext. auto-rempliss.:";
+
+"Delete" = "Supprimer";
+
+"Description" = "Déscription";
+
+"Description:" = "Déscription:";
+
+"Details" = "Détails";
+
+"Display default fields specified by the plugin." = "Utliser les valeurs proposés par le mod. d'extensions.";
+
+"Display default genres specified by the application." = "Utiliser les genres proposés par Books.";
+
+"does not contain" = "ne contient pas";
+
+"Edit" = "Édition";
+
+"Edition" = "Édition";
+
+"Edition:" = "Édition:";
+
+"Editor(s)" = "Éditeur(s)";
+
+"Editors:" = "Éditeurs:";
+
+"Enabled" = "Active";
+
+"ends with" = "finit par";
+
+"Enter the custom genres in the box below. Enter one genre per line." = "Veuillez ajouter des genres supplémentaires. Un genre par ligne.";
+
+"Enter the field names for the custom fields to display in the list. Please enter one field name per line." = "Veuillez bien entrer des valeurs supplémentaires pour être affiché. Une entrée par ligne.";
+
+"Enter the fields to display in the details below. Enter them in the order that they should appear." = "Veuillez ajouter des valeurs supplémentaire pour être affiché à la fenêtre Détails.";
+
+"Export" = "Exporter";
+
+"Extended Info." = "Fiche supplémentaire";
+
+"Fetching data for book. Please be patient." = "Recherche des informations. Soyez patient.";
+
+"Field" = "Type;
+
+"Field Name" = "Nom";
+
+"Field Name:" = "Nom:";
+
+"Field Value" = "Valeur";
+
+"Field Value:" = "Valeur:";
+
+"File" = "Fichier";
+
+"Files" = "Fichiers";
+
+"Find" = "Rechercher";
+
+"Find Next" = "Poursuivre la recherche";
+
+"Find Online" = "Rechercher en ligne";
+
+"Find Previous" = "Rechercher le précédent";
+
+"Find…" = "Rechercher…";
+
+"Format" = "Format";
+
+"Format:\n" = "Format:\n";
+
+"Genre" = "Genre";
+
+"Genres" = "Genres";
+
+"Genres:" = "Genres:";
+
+"greater than" = "supérieur à";
+
+"Help" = "Aide";
+
+"Hide Books" = "Masquer Books";
+
+"Hide Others" = "Masquer les autres";
+
+"Illustrator(s)" = "Illustrateur(s)";
+
+"Illustrators:" = "Illustrateurs:";
+
+"Import" = "Importer";
+
+"Info" = "Plus d'infos";
+
+"Inscription:" = "Notes:";
+
+"Install Selected Plugin" = "Installer le mod. d'ext. sélectionné";
+
+"is" = "est";
+
+"is not" = "n'est pas";
+
+"ISBN" = "ISBN";
+
+"ISBN:" = "ISBN:";
+
+"Item" = "Item";
+
+"Item1" = "Item1";
+
+"Item2" = "Item2";
+
+"Item3" = "Item3";
+
+"Jump to Selection" = "Aller à la sélection";
+
+"Keywords" = "Mots-clefs";
+
+"Keywords:" = "Mots-clefs:";
+
+"Lending History" = "Sur le prêt";
+
+"Length" = "Pages";
+
+"Length:" = "Pages:";
+
+"less than" = "inférieur à";
+
+"List" = "Liste de livres";
+
+"List Name" = "Liste de livres";
+
+"Location" = "Emplacement actuel";
+
+"Location:" = "Emplacement actuel:";
+
+"Look for new plugins online" = "Rechercher des nouveaux mod. d'ext. en ligne";
+
+"Look for updates on launch" = "Rechercher automatiquement les mises à jour";
+
+"Main" = "Général";
+
+"MainMenu" = "MainMenu";
+
+"Match" = "Répondre à";
+
+"Minimize" = "Placer dans le Dock";
+
+"Move To Trash" = "Jeter à la corbeille";
+
+"Multiple Books Selected" = "Plusieurs livres sélectionnés";
+
+"Multiple Lists Selected" = "Plusieurs liste de livres sélectionnées";
+
+"Name" = "Nom";
+
+"New Book" = "Nouveau livre";
+
+"New Entry" = "Nouvelle entrée";
+
+"New List" = "Nouvelle liste de livres";
+
+"New Smart List" = "Nouvelle liste de livres intélligente";
+
+"Next" = "Next";
+
+"No Books Selected" = "Aucun livre sélectionné";
+
+"No Lists Selected" = "Aucune liste de livres sélectionnée";
+
+"Not Installed" = "Ne pas installé";
+
+"of the following rules:" = "règles suivantes:";
+
+"OK" = "Sauvegarder";
+
+"Only export selected items" = "Exporter seulement les objets selectionés";
+
+"Open With Finder" = "Lancer";
+
+"OtherViews" = "OtherViews";
+
+"Owner:" = "Propriétaire:";
+
+"Panel" = "Panel";
+
+"Paste" = "Coller";
+
+"Paste and Match Style" = "Coller et appliquer le style";
+
+"Place Published" = "Lieu d'édition";
+
+"Plugin Manager" = "Administration des modules d'extension";
+
+"Preferences" = "Préférences";
+
+"Preferences…" = "Préférences…";
+
+"Previous" = "Précédent";
+
+"Progress Message\n" = "Visualiseur d'activité\n";
+
+"Progress:" = "Visualiseur d'activité:";
+
+"Publication Date" = "Date de publ.";
+
+"Publish Date:" = "Date de publ.:";
+
+"Publish Place:" = "Lieu d'édition:";
+
+"Publisher" = "Maison d'éd.";
+
+"Publisher:" = "Maison d'éd.:";
+
+"Purge Spotlight Index" = "Effacer l'index Spotlight";
+
+"QuickFill" = "Auto-remplissage";
+
+"Quickfilling" = "J'auto-remplisse";
+
+"Quit Books" = "Quitter Books";
+
+"Rating" = "Classement";
+
+"Rating:" = "Classement:";
+
+"Redo" = "Rétablir";
+
+"Refresh List" = "Mise à jour de la liste des mod. d'ext.";
+
+"Remove" = "Supprimer";
+
+"Remove Selected Entry" = "Supprimer l'entrée";
+
+"Replace existing values" = "Ne pas garder les données préc.";
+
+"Returned On" = "Date de retour";
+
+"Returned On:" = "Date de retour:";
+
+"Reviewer" = "Revu par";
+
+"Reviews" = "Revues";
+
+"Save" = "Enregistrer";
+
+"Search" = "Rechercher";
+
+"Select All" = "Tout sélectionner";
+
+"Select the fields to display in the list from the choices below:" = "Veuillez bien choisir les valeurs, que vous souhaitez voir dans votre liste de livres, de la liste ci-présente:";
+
+"Series" = "Série";
+
+"Series:" = "Série:";
+
+"Services" = "Services";
+
+"Show All" = "Tout afficher";
+
+"Source:" = "Acheté à:";
+
+"Spelling" = "Orthographe";
+
+"Spelling…" = "Orthographe…";
+
+"starts with" = "commence par";
+
+"Status" = "État";
+
+"Submitter:" = "Revu par:";
+
+"Summary" = "Sommaire";
+
+"Summary:" = "Sommaire:";
+
+"System Font Text" = "System Font Text";
+
+"Title" = "Titre";
+
+"Title:" = "Titre:";
+
+"To use, add a new copy above." = "---.";
+
+"Translator(s)" = "Traducteur(s)";
+
+"Translators:" = "Traducteur(s):";
+
+"Type" = "Type";
+
+"Undo" = "Annuler";
+
+"Update Spotlight Index" = "Mettre à jour l'index Spotlight";
+
+"Use Selection for Find" = "Rechercher la sélection";
+
+"User-Defined Information" = "Informations supplémentaires";
+
+"Version" = "Version";
+
+"Window" = "Fenêtre";
+
+"Zoom" = "Réduire/agrandir";
+

@@ -1,0 +1,342 @@
+/* No comment provided by engineer. */
+"%@ plugin. (No description provided.)" = "Module d'extension %@. (Pas d'informations supplémentaire.)";
+
+/* No comment provided by engineer. */
+"Alert" = "Attention";
+
+/* No comment provided by engineer. */
+"All" = "toutes les";
+
+/* No comment provided by engineer. */
+"Amazon (US)" = "Amazon (É.-U.)";
+
+/* No comment provided by engineer. */
+"Any" = "n'importe laquelle des";
+
+/* No comment provided by engineer. */
+"Are you sure you want to delete the selected books?" = "Souhaitez-vouz supprimer les livres sélectionnés?";
+
+/* No comment provided by engineer. */
+"Are you sure you want to delete this list? It still contains items." = "Souhaitez-vous supprimer cette liste de livres? Elle contient toujours quelques éléments.";
+
+/* No comment provided by engineer. */
+"Are you sure you want to download and install the selected plugin? It may take several minutes." = "Souhaitez-vous installer le module d'extension sélectionné? Il vous faut attendre un tout petit moment, jusqu'à la fin de ce processus.";
+
+/* No comment provided by engineer. */
+"Author(s)" = "Auteur(s)";
+"author(s)" = "auteur(s)";
+
+/* No comment provided by engineer. */
+"Batch Quickfill" = "Auto-remplissage des données de plusieurs livres";
+
+/* No comment provided by engineer. */
+"Batch quickfilling %d items..." = "J'auto-remplisse les données pour %d livres...";
+
+/* No comment provided by engineer. */
+"Biography" = "Biographie";
+
+/* No comment provided by engineer. */
+"Books 2.0 Importer" = "Books 2.0";
+
+/* No comment provided by engineer. */
+"Borrower" = "Emprunteur";
+
+/* No comment provided by engineer. */
+"Can't find application support folder" = "Le dossier ~/Library/Application Support/Books n'a pas été trouvé.";
+
+/* No comment provided by engineer. */
+"Cancel" = "Annuler";
+
+/* No comment provided by engineer. */
+"Condition" = "État";
+
+/* No comment provided by engineer. */
+"contains" = "contient";
+
+/* No comment provided by engineer. */
+"Could not save changes while quitting. Quit anyway?" = "Des changements n'ont pas été sauvegardés. Quitter Books quand-même?";
+
+/* No comment provided by engineer. */
+"Current Value" = "Prix actuel";
+
+/* No comment provided by engineer. */
+"Date Acquired" = "Acquis le";
+
+/* No comment provided by engineer. */
+"Date Finished" = "Fini le";
+
+/* No comment provided by engineer. */
+"Date Lent" = "Date de prêt";
+
+/* No comment provided by engineer. */
+"Date Published" = "Date de publ.";
+"date dublished" = "date de publ.";
+
+/* No comment provided by engineer. */
+"Date Started" = "Commencé le";
+
+/* No comment provided by engineer. */
+"Default Display" = "Style d'affichage";
+
+/* No comment provided by engineer. */
+"Delete Non-Empty List?" = "Souhaitez-vous supprimer la liste de livres qui contient toujours des éléments?";
+
+/* No comment provided by engineer. */
+"Delete selected books?" = "Supprimer les livres sélectionnes?";
+
+/* No comment provided by engineer. */
+"does not contain" = "ne contient pas";
+
+/* No comment provided by engineer. */
+"Downloading and installing plugin..." = "Je télécharge et j'installe le module d'extension...";
+
+/* No comment provided by engineer. */
+"Edit Smart List" = "Éditer la liste de livres intell.";
+
+/* No comment provided by engineer. */
+"Edition" = "Édition";
+"edition" = "édition";
+
+/* No comment provided by engineer. */
+"Editor(s)" = "Éditeur(s)";
+"editor(s)" = "éditeur(s)";
+
+/* No comment provided by engineer. */
+"ends with" = "finit par";
+
+/* No comment provided by engineer. */
+"Export Data" = "Exporter les données";
+
+/* No comment provided by engineer. */
+"Exporting data to plugin..." = "J'envoye les données au module d'extension...";
+
+/* No comment provided by engineer. */
+"Fairy Tales" = "conte de fées";
+
+/* No comment provided by engineer. */
+"Fantasy" = "Fantasy";
+
+/* No comment provided by engineer. */
+"Folk Tales" = "légende";
+
+/* No comment provided by engineer. */
+"Format" = "Format";
+"format" = "format";
+
+/* No comment provided by engineer. */
+"Genre" = "Genre";
+"genre" = "genre";
+
+/* No comment provided by engineer. */
+"Get Info" = "Plus d'infos";
+
+/* No comment provided by engineer. */
+"greater than" = "supérieur à";
+
+/* No comment provided by engineer. */
+"Hide Cover" = "Masquer l'image";
+
+/* No comment provided by engineer. */
+"Hide Info" = "Masquer les infos";
+
+/* No comment provided by engineer. */
+"Historical Fiction" = "Roman historique";
+
+/* No comment provided by engineer. */
+"http://www.google.com/search?q=*isbn*" = "http://www.google.com/search?q=*isbn*";
+
+/* No comment provided by engineer. */
+"Illustrator(s)" = "Illustrateur(s)";
+"illustrator(s)" = "illustrateur(s)";
+
+/* No comment provided by engineer. */
+"Import Data" = "Importer les données";
+
+/* No comment provided by engineer. */
+"Install Plugin?" = "Installer le module d'extension?";
+
+/* No comment provided by engineer. */
+"is" = "est";
+
+/* No comment provided by engineer. */
+"is not" = "n'est pas";
+
+/* No comment provided by engineer. */
+"Is this your first time running Books? Please set your preferences" = "Est-ce la première fois que vous démarrez Books? Veuillez bien sélectionner vos préférences.";
+
+/* No comment provided by engineer. */
+"ISBN" = "ISBN";
+"isbn" = "isbn";
+
+/* No comment provided by engineer. */
+"Keep" = "Garder";
+
+/* No comment provided by engineer. */
+"Keep or overwrite existing values?" = "Garder ou ne pas garder les données?";
+
+/* No comment provided by engineer. */
+"Keywords" = "Mots-clefs";
+"keywords" = "mots-clefs";
+
+/* No comment provided by engineer. */
+"Length" = "Pages";
+"length" = "pages";
+
+/* No comment provided by engineer. */
+"less than" = "inférieur à";
+
+/* No comment provided by engineer. */
+"Loading data from disk..." = "Chargement des données dépuis le disque dur...";
+
+/* No comment provided by engineer. */
+"Location" = "Emplacement";
+
+/* No comment provided by engineer. */
+"matches regexp" = "d'après le style";
+
+/* No comment provided by engineer. */
+"My Books" = "Mes livres";
+
+/* No comment provided by engineer. */
+"Mystery" = "Mystery";
+
+/* No comment provided by engineer. */
+"Myths & Legends" = "Mythes & légendes";
+
+/* No comment provided by engineer. */
+"New Book" = "Nouveau livre";
+
+/* No comment provided by engineer. */
+"New List" = "Nouvelle liste de livres";
+
+/* No comment provided by engineer. */
+"New Smart List" = "Nouvelle liste de livres intell.";
+
+/* No comment provided by engineer. */
+"No" = "Non";
+
+/* No comment provided by engineer. */
+"No Preferences Found" = "Le fichier préférence n'a pas été trouvé.";
+
+/* No comment provided by engineer. */
+"No Quickfill Plugin Selected" = "Aucun module d'extension pour l'auto-remplissage sélectionné.";
+
+/* No comment provided by engineer. */
+"No quickfill plugins have been selected. Select one in the preferences." = "Aucun module d'extension sélectionné. Veuillez en sélectionnez un dans les préférences.";
+
+/* No comment provided by engineer. */
+"Non-Fiction" = "essai";
+
+/* No comment provided by engineer. */
+"OK" = "Sauvegarder";
+
+/* No comment provided by engineer. */
+"Only one book may be quickfilled at a time." = "Vous ne pouvez pas auto-remplisser les données pour plusieurs livres sélectionnés.";
+
+/* No comment provided by engineer. */
+"Overwrite" = "Ne pas garder";
+
+/* No comment provided by engineer. */
+"Owner" = "Propriétaire";
+
+/* No comment provided by engineer. */
+"Place Published" = "Lieu d'édition";
+"place published" = "lieu d'édition";
+
+/* No comment provided by engineer. */
+"Plugin Installed" = "Le module d'extension a été installé";
+
+/* No comment provided by engineer. */
+"Poetry" = "Poésie";
+
+/* No comment provided by engineer. */
+"Preferences" = "Préférences";
+
+/* No comment provided by engineer. */
+"Publisher" = "Maison d'éd.";
+"publisher" = "maison d'éd.";
+
+/* No comment provided by engineer. */
+"Quickfilling item %d of %d..." = "J'auto-remplisse les données du livre %1$d de %2$d...";
+
+/* No comment provided by engineer. */
+"Quit" = "Quitter";
+
+/* No comment provided by engineer. */
+"Quit anyway" = "Quitter quand-même";
+
+/* No comment provided by engineer. */
+"Rating" = "Classement";
+
+/* No comment provided by engineer. */
+"Realistic Fiction" = "Roman réaliste";
+
+/* No comment provided by engineer. */
+"Remove Book" = "Supprimer le livre";
+
+/* No comment provided by engineer. */
+"Remove List" = "Supprimer la liste de livres";
+
+/* No comment provided by engineer. */
+"Returned On" = "Date de retour";
+
+/* No comment provided by engineer. */
+"Science Fiction" = "Science-fiction";
+
+/* No comment provided by engineer. */
+"Search Selected List" = "Rechercher la liste de livres sélectionnée";
+
+/* No comment provided by engineer. */
+"Series" = "Série";
+"series" = "série";
+
+/* No comment provided by engineer. */
+"Short Stories" = "Nouvelle";
+
+/* No comment provided by engineer. */
+"Show Cover" = "Afficher l'image";
+
+/* No comment provided by engineer. */
+"Source" = "Acheté à";
+
+/* No comment provided by engineer. */
+"starts with" = "commence par";
+
+/* No comment provided by engineer. */
+"Test Function" = "Vérifier la fonction";
+
+/* No comment provided by engineer. */
+"The new plugin has been installed. Please restart Books to use the new plugin." = "Le nouveau module d'extension a été installé. Veuillez bien rédemarrer Books.";
+
+/* No comment provided by engineer. */
+"Title" = "Titre";
+"title" = "titre";
+
+/* No comment provided by engineer. */
+"Too Many Books Selected" = "Vous avez sélectionnez trop de livres.";
+
+/* No comment provided by engineer. */
+"Translator(s)" = "Traducteur(s)";
+"translator(s)" = "traducteur(s)";
+
+/* No comment provided by engineer. */
+"Untitled Book" = "Sans titre";
+
+/* No comment provided by engineer. */
+"Yes" = "Oui";
+
+"Summary" = "Sommaire";
+"summary" = "sommaire";
+
+"List Name" = "Liste de livres";
+"list name" = "liste de livres";
+
+"<p>Authors: " = "<p>Autoren: ";
+"<p>ISBN: " = "<p>ISBN: ";
+"<p>Format: " = "<p>Format: ";
+"<p>Summary: " = "<p>Sommaire: ";
+"Installed" = "Installé";
+"Not Installed" = "Ne pas installé";
+"Updating Spotlight index..." = "Je mets à jour l'index Spotlight...";
+
+

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Comic Book PDF Viewer' target in the 'Comic Book PDF Viewer' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

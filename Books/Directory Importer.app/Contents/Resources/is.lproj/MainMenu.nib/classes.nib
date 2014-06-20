@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {export = id; }; 
+            CLASS = FileImporterAppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                menu = id; 
+                progressBar = id; 
+                progressMessage = id; 
+                progressWindow = id; 
+                quitMenuItem = id; 
+                resultsDataSource = ResultsDataSource; 
+                resultsTable = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = ResultsDataSource; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

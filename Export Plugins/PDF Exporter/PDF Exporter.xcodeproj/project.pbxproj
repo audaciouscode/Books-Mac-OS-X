@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3812C93C0CAC96BC0086F056 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 3812C9390CAC96BC0086F056 /* Fonts */; };
+		3812CAB20CAC98580086F056 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3812CAB10CAC98580086F056 /* config.xml */; };
+		3812F99E09E06E230078CA30 /* Summary (8.5" x 11").xsl in Resources */ = {isa = PBXBuildFile; fileRef = 3812F99D09E06E230078CA30 /* Summary (8.5" x 11").xsl */; };
+		3854281E09DAC679002EEA90 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3854281D09DAC679002EEA90 /* Credits.rtf */; };
+		386AA59009B0A82900A17EFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 386AA58E09B0A82900A17EFA /* AppDelegate.m */; };
+		386AA5BC09B0ACD600A17EFA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 386AA5BB09B0ACD600A17EFA /* icon.icns */; };
+		38747ECE09DA19A30013A806 /* fop-jars in Resources */ = {isa = PBXBuildFile; fileRef = 38747EC309DA19A30013A806 /* fop-jars */; };
+		38747ED009DA19AC0013A806 /* run.sh in Resources */ = {isa = PBXBuildFile; fileRef = 38747ECF09DA19AC0013A806 /* run.sh */; };
+		38A7D7B70CBE582000AEB11D /* config-cyberbit.xml in Resources */ = {isa = PBXBuildFile; fileRef = 38A7D7B60CBE582000AEB11D /* config-cyberbit.xml */; };
+		38C7005709B3C625004EA9B5 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C7005609B3C625004EA9B5 /* Book.m */; };
+		38F2B06209D9803A00E69477 /* List (8.5" x 11").xsl in Resources */ = {isa = PBXBuildFile; fileRef = 38F2B06109D9803A00E69477 /* List (8.5" x 11").xsl */; };
+		38FC53690BBAB6C7000D51FD /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FC53680BBAB6C7000D51FD /* Quartz.framework */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* PDF Exporter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDF Exporter_Prefix.pch"; sourceTree = "<group>"; };
+		3812C9390CAC96BC0086F056 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		3812CAB10CAC98580086F056 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		3812F99D09E06E230078CA30 /* Summary (8.5" x 11").xsl */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "Summary (8.5\" x 11\").xsl"; sourceTree = "<group>"; };
+		3854281D09DAC679002EEA90 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		386AA58E09B0A82900A17EFA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		386AA58F09B0A82900A17EFA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		386AA5BB09B0ACD600A17EFA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		38747EC309DA19A30013A806 /* fop-jars */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "fop-jars"; sourceTree = "<group>"; };
+		38747ECF09DA19AC0013A806 /* run.sh */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
+		38A7D7B60CBE582000AEB11D /* config-cyberbit.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "config-cyberbit.xml"; sourceTree = "<group>"; };
+		38C7005509B3C625004EA9B5 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		38C7005609B3C625004EA9B5 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		38F2B06109D9803A00E69477 /* List (8.5" x 11").xsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "List (8.5\" x 11\").xsl"; sourceTree = "<group>"; };
+		38FC53680BBAB6C7000D51FD /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* PDF Exporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDF Exporter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				38FC53690BBAB6C7000D51FD /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				386AA58E09B0A82900A17EFA /* AppDelegate.m */,
+				386AA58F09B0A82900A17EFA /* AppDelegate.h */,
+				38C7005509B3C625004EA9B5 /* Book.h */,
+				38C7005609B3C625004EA9B5 /* Book.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* PDF Exporter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* PDF Exporter */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "PDF Exporter";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* PDF Exporter_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38A7D7B60CBE582000AEB11D /* config-cyberbit.xml */,
+				3812CAB10CAC98580086F056 /* config.xml */,
+				3854281D09DAC679002EEA90 /* Credits.rtf */,
+				38747EBE09DA18F00013A806 /* Script */,
+				38F2B05F09D9801800E69477 /* PDF Styles */,
+				386AA5BB09B0ACD600A17EFA /* icon.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38FC53680BBAB6C7000D51FD /* Quartz.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38747EBE09DA18F00013A806 /* Script */ = {
+			isa = PBXGroup;
+			children = (
+				38747ECF09DA19AC0013A806 /* run.sh */,
+				3812C9390CAC96BC0086F056 /* Fonts */,
+				38747EC309DA19A30013A806 /* fop-jars */,
+			);
+			name = Script;
+			sourceTree = "<group>";
+		};
+		38F2B05F09D9801800E69477 /* PDF Styles */ = {
+			isa = PBXGroup;
+			children = (
+				38F2B06109D9803A00E69477 /* List (8.5" x 11").xsl */,
+				3812F99D09E06E230078CA30 /* Summary (8.5" x 11").xsl */,
+			);
+			name = "PDF Styles";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* PDF Exporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PDF Exporter" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PDF Exporter";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "PDF Exporter";
+			productReference = 8D1107320486CEB800E47090 /* PDF Exporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PDF Exporter" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* PDF Exporter */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* PDF Exporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				386AA5BC09B0ACD600A17EFA /* icon.icns in Resources */,
+				38F2B06209D9803A00E69477 /* List (8.5" x 11").xsl in Resources */,
+				38747ECE09DA19A30013A806 /* fop-jars in Resources */,
+				38747ED009DA19AC0013A806 /* run.sh in Resources */,
+				3854281E09DAC679002EEA90 /* Credits.rtf in Resources */,
+				3812F99E09E06E230078CA30 /* Summary (8.5" x 11").xsl in Resources */,
+				3812C93C0CAC96BC0086F056 /* Fonts in Resources */,
+				3812CAB20CAC98580086F056 /* config.xml in Resources */,
+				38A7D7B70CBE582000AEB11D /* config-cyberbit.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				386AA59009B0A82900A17EFA /* AppDelegate.m in Sources */,
+				38C7005709B3C625004EA9B5 /* Book.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "PDF Exporter";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "PDF Exporter";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PDF Exporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PDF Exporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

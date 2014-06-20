@@ -1,0 +1,165 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style/style.css" />
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="index.rss" />
+		<title>My Books</title>
+
+		<script language="JavaScript" type="text/javascript">
+		<!-- //
+			var requiredMajorVersion = 8;
+			var requiredMinorVersion = 0;
+			var requiredRevision = 0;
+			var jsVersion = 1.0;
+		// -->
+		</script>
+		<script language="VBScript" type="text/vbscript">
+		<!-- //
+			Function VBGetSwfVer(i)
+				on error resume next
+				Dim swControl, swVersion
+				swVersion = 0
+  
+				set swControl = CreateObject("ShockwaveFlash.ShockwaveFlash." + CStr(i))
+				if (IsObject(swControl)) then
+					swVersion = swControl.GetVariable("$version")
+				end if
+				VBGetSwfVer = swVersion
+			End Function
+		// -->
+		</script>
+		<script language="JavaScript1.1" type="text/javascript">
+		<!-- //
+			var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+			var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+			var isOpera = (navigator.userAgent.indexOf("Opera") != -1) ? true : false;
+			jsVersion = 1.1;
+
+			function JSGetSwfVer(i){
+				if (navigator.plugins != null && navigator.plugins.length > 0) {
+					if (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]) {
+						var swVer2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+			      		var flashDescription = navigator.plugins["Shockwave Flash" + swVer2].description;
+						descArray = flashDescription.split(" ");
+						tempArrayMajor = descArray[2].split(".");
+						versionMajor = tempArrayMajor[0];
+						versionMinor = tempArrayMajor[1];
+						if ( descArray[3] != "" ) {
+							tempArrayMinor = descArray[3].split("r");
+						} else {
+							tempArrayMinor = descArray[4].split("r");
+						}
+      					versionRevision = tempArrayMinor[1] > 0 ? tempArrayMinor[1] : 0;
+        			    flashVer = versionMajor + "." + versionMinor + "." + versionRevision;
+			      	} else {
+						flashVer = -1;
+					}
+				}
+				else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.6") != -1) flashVer = 4;
+				else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.5") != -1) flashVer = 3;
+				else if (navigator.userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 2;
+				else {
+					flashVer = -1;
+				}
+				return flashVer;
+			} 
+
+			function DetectFlashVer(reqMajorVer, reqMinorVer, reqRevision) 
+			{
+			 	reqVer = parseFloat(reqMajorVer + "." + reqRevision);
+
+				for (i=25;i>0;i--) {	
+					if (isIE && isWin && !isOpera) {
+						versionStr = VBGetSwfVer(i);
+					} else {
+						versionStr = JSGetSwfVer(i);		
+					}
+					
+					if (versionStr == -1 ) { 
+						return false;
+					} else if (versionStr != 0) {
+						if(isIE && isWin && !isOpera) {
+							tempArray         = versionStr.split(" ");
+							tempString        = tempArray[1];
+							versionArray      = tempString .split(",");				
+						} else {
+							versionArray      = versionStr.split(".");
+						}
+		
+						versionMajor      = versionArray[0];
+						versionMinor      = versionArray[1];
+						versionRevision   = versionArray[2];
+			
+						versionString     = versionMajor + "." + versionRevision;   // 7.0r24 == 7.24
+						versionNum        = parseFloat(versionString);
+
+						if ( (versionMajor > reqMajorVer) && (versionNum >= reqVer) ) {
+							return true;
+						} else {
+							return ((versionNum >= reqVer && versionMinor >= reqMinorVer) ? true : false );	
+						}
+					}
+				}	
+				return (reqVer ? false : 0.0);
+			}
+		// -->
+	</script>
+	</head>
+	<body>
+		<table cellpadding="0" cellspacing="0" class="flash">
+		<tr><td class="top-left"> </td><td class="top-center"> </td><td class="top-right"> </td></tr>
+		<tr><td class="left-center"> </td><td class="center"><div class="contents">
+			<div class="page-title">My Books</div>
+
+			<center>
+			
+				<!-- <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="720" height="470" id="books-front" align="middle">
+				<param name="allowScriptAccess" value="sameDomain" />
+				<param name="movie" value="books-front.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#ffffff" />
+				<embed src="books-front.swf" quality="high" bgcolor="#ffffff" width="720" height="470" name="books-front" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+				</object> -->
+			
+			
+				<script language="JavaScript" type="text/javascript">
+				<!-- 
+					var hasRightVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+					
+					if(hasRightVersion) {  // if we've detected an acceptable version
+    					var oeTags = '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"'
+    					+ 'width="720" height="470"'
+						+ 'codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab">'
+						+ '<param name="movie" value="books-front.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />'
+						+ '<embed src="books-front.swf" quality="high" bgcolor="#ffffff" '
+						+ 'width="720" height="470" name="books-front" align="middle"'
+						+ 'play="true"'
+						+ 'loop="false"'
+						+ 'quality="high"'
+						+ 'allowScriptAccess="sameDomain"'
+						+ 'type="application/x-shockwave-flash"'
+						+ 'pluginspage="http://www.macromedia.com/go/getflashplayer">'
+						+ '<\/embed>'
+						+ '<\/object>';
+
+						document.write(oeTags);   // embed the flash movie
+					} else {  // flash is too old or we can't detect the plugin
+						var alternateContent = 'This content requires the Macromedia Flash Player.'
+						+ '<a href=http://www.macromedia.com/go/getflash/>Get Flash</a>';
+						document.write(alternateContent);  // insert non-flash content
+					}
+				// -->
+				</script>
+				<noscript>
+			  		This content requires the Macromedia Flash Player.
+			  		<a href="http://www.macromedia.com/go/getflash/">Get Flash</a>  	
+				</noscript>
+			</center>
+			</td><td class="right-center"> </td></tr>
+			<tr><td class="bottom-left"> </td><td class="bottom-center"> </td><td class="bottom-right"> </td></tr>
+		</table>
+		<div class="footer">
+			Site generated by <a href="http://books.aetherial.net">Books</a>.
+			Aesthetics by <a href="http://www.filament21.com">Jon Fernandez</a>.
+		</div>
+	</body>
+</html>

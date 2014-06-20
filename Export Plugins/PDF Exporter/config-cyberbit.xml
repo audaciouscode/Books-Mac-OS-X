@@ -1,0 +1,14 @@
+<fop version="1.0">
+	<renderers>
+	 	<renderer mime="application/pdf">
+			<filterList>
+				<value>flate</value>
+			</filterList>
+			<fonts>
+				<font metrics-url="Fonts/cyberbit.xml" embed-url="../../../../../../Fonts/Cyberbit.ttf"> 
+					<font-triplet name="Cyberbit" style="normal" weight="normal"/>
+				</font>
+			</fonts>
+		</renderer>
+	</renderers>
+</fop>

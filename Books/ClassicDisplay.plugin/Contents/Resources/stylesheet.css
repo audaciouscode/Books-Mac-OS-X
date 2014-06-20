@@ -1,0 +1,79 @@
+body
+{
+	background-color: #fff;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* @group Empty */
+
+div.empty
+{
+	margin: 0;
+	padding: 0;
+}
+
+div.empty-message
+{
+	margin: 3em;
+	padding: 0;
+	text-align: center;
+	font-size: x-large;
+	color: #7f7f7f;
+	font-weight: bold;
+}
+
+/* @end */
+
+/* @group Book */
+
+div {
+	margin-bottom: 0.5em;
+}
+
+div.book-definition {
+	margin-left: 2em;
+}
+
+div.book-title
+{
+	font-weight: bold;
+	font-size: large;
+	margin-left: -1em;
+	margin-top: 1em;
+}
+
+div.book-summary
+{
+	margin-top: 1em;
+#	border-top: thin solid gray;
+	text-align: justify;
+}
+
+/* @end */
+
+/* @group Multiple */
+
+div.booklist-authors
+{
+	padding-left: 30px;
+}
+
+div.multiple-message
+{
+	margin-left: 2em;
+}
+
+div.booklist-title {
+	font-weight: bold;
+	font-style: italic;
+}
+
+div.multiple-title
+{
+	font-weight: bold;
+	font-size: large;
+	margin-left: -1em;
+	margin-top: 1em;
+}
+
+/* @end */

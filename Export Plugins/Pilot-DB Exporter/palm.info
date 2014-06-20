@@ -1,0 +1,11 @@
+
+field "Title" string
+field "Authors" string
+field "Publisher" string
+field "Genre" string
+field "Publish Date" string
+field "Format" string
+field "Edition" string
+field "Series" string
+
+option read-only "on"

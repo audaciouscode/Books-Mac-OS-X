@@ -1,0 +1,251 @@
+body
+{
+	background-color: #ebebeb;
+	
+	font-family: Lucida Grande, Lucida, sans-serif;
+	font-size: 8pt;
+}
+
+table
+{
+	font-size: 8pt;
+	
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 800px;
+}
+
+table.flash
+{
+	width: 740px;
+}
+
+table.book
+{
+	width: 800px;
+}
+
+tr
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+td
+{
+	margin: 0px;
+	padding: 0px;
+
+	background-color: #ffffff;
+}	
+
+td.top-left
+{
+	background: url(tl.png) no-repeat top left;
+	width: 10px;
+	height: 10px;
+}	
+
+td.top-right
+{
+	background: url(tr.png) no-repeat top left;
+	width: 10px;
+	height: 10px;
+}	
+
+td.bottom-left
+{
+	background: url(bl.png) no-repeat top left;
+	width: 10px;
+	height: 10px;
+}	
+
+td.bottom-right
+{
+	background: url(br.png) no-repeat top left;
+	width: 10px;
+	height: 10px;
+}	
+
+td.bottom-center
+{
+	background: url(bottom.png) repeat top left;
+	height: 10px;
+}	
+
+td.top-center
+{
+	background: url(top.png) repeat top left;
+	height: 10px;
+}	
+
+td.left-center
+{
+	background: url(left.png) repeat top left;
+	width: 10px;
+}	
+
+td.right-center
+{
+	background: url(right.png) repeat top left;
+	width: 10px;
+}	
+
+td.center
+{
+	padding: 0px;
+}	
+
+
+img.cover
+{
+	float: left;
+	
+	border: thin solid #b3b3b3;
+	
+	margin: 10px;
+	margin-right: 0px;
+	
+	width: 250px;
+}
+
+div.left
+{
+	float: left;
+	
+	margin: 20px;
+	margin-right: 0px;
+	
+	width: 230px;
+	
+	text-align: right;
+}
+
+p.item-header
+{
+	font-weight: bold;
+	text-align: right;
+}
+
+p.item
+{
+	text-align: right;
+}
+
+div.metadata
+{
+	float: right;
+	display: block;
+
+	width: 490px;
+
+	margin: 10px;
+
+	vertical-align: top;
+}
+
+div.page-title
+{
+	color: #555555;
+	clear: both;
+	
+	font-size: 18pt;
+	
+	text-align: right;
+	
+	padding-bottom: 3px;
+
+	margin-top: 16px;
+	margin-top: 12px;
+	
+	border-bottom: 2px solid #b7b7b7;
+	margin: 10px;
+
+	text-transform: uppercase;	
+}
+
+p
+{
+	text-align: justify;
+}
+
+table.book-def
+{
+	margin-top: 0px;
+	width: 490px;
+}
+
+td.key
+{
+	text-align: right;
+	font-weight: bold;
+	
+	padding-right: 10px;
+	padding-bottom: 10px;
+	
+	vertical-align: top;
+	
+	width: 85px;
+}
+
+td.value
+{
+	padding-bottom: 10px;
+}
+
+div.footer
+{
+	margin: 5px;
+	text-align: center;
+	
+	margin-left: auto;	
+	margin-right: auto;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+div.navigation
+{
+	clear: both;
+	
+	margin: 10px;
+
+	text-align: right;
+}
+
+div.buy
+{
+	clear: both;
+	
+	margin: 10px;
+
+	text-align: right;
+}
+
+div.list-siblings
+{
+	float: left;
+	width: 200px;
+
+	text-align: right;
+
+	margin-right: 20px;
+}
+
+div.list-contents
+{
+	float: right;
+	width: 400px;
+	display: block;
+}
+
+p.list-sibling
+{
+	text-align: right;
+}
+

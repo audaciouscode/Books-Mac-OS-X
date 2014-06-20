@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>BooksItem</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>Books.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>BooksItem</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>net.aetherial.books.BooksItem</string>
+			</array>
+			<key>LSTypeIsPackage</key>
+			<false/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>Binary</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>Books</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Books Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Books Help</string>
+	<key>CFBundleIconFile</key>
+	<string>Books</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.aetherial.books.Books</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BOOK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.0 beta 6</string>
+	<key>CFBundleSignature</key>
+	<string>AETH</string>
+	<key>CFBundleVersion</key>
+	<string>3.0b6</string>
+	<key>NSAppleScriptEnabled</key>
+	<string>YES</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>OSAScriptingDefinition</key>
+	<string>Books.sdef</string>
+	
+	<key>SmartCrashReports_CompanyName</key> 
+	<string>Chris Karr</string> 
+	<key>SmartCrashReports_EmailTicket</key> 
+	<string>SCR-CB89FEB471</string>
+	
+	<key>SUFeedURL</key>
+	<string>http://books.aetherial.net/downloads/appcast.xml</string>
+</dict>
+</plist>
